@@ -5,7 +5,6 @@ WORKDIR /app
 #Working Directory where the application will run 
 
 COPY requirements.txt .
-#
 
 RUN pip3 install --no-cache-dir -r requirements.txt 
 #Run the command to install everything inside requirements.txt
@@ -21,3 +20,5 @@ EXPOSE 5000
 
 CMD ["flask", "run"]
 #Run the command to start the flask app 
+
+#dhyey
