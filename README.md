@@ -1,4 +1,4 @@
-# Cloud Native Resource Monitoring Using Flask on Kubernetes
+# Cloud Native Resource Monitoring Application 
 
 This project provides a Cloud Native Python Application for monitoring CPU and Memory resources in a Kubernetes environment. The application combines Flask and psutil to offer a user-friendly, cloud-native monitoring solution that is easy to deploy and manage.
 
