@@ -1,12 +1,18 @@
-# Cloud Native Resource Monitoring Python Application on Kubernetes
+# Cloud Native Resource Monitoring Using Flask on Kubernetes
 
-This repository contains my Cloud CPU & Memory Monitoring Python Application designed for Kubernetes. The application leverages Flask and psutil to create a comprehensive monitoring system that is easy to deploy in a cloud-native environment.
+This project provides a Cloud Native Python Application for monitoring CPU and Memory resources in a Kubernetes environment. The application combines Flask and psutil to offer a user-friendly, cloud-native monitoring solution that is easy to deploy and manage.
 
-## Project Overview
+## Architecture Overview
 
-- **Python Monitoring Application**: Developed a Flask-based application that uses psutil to monitor and display system statistics in real-time.
-- **Local Development Setup**: Configured the application to run seamlessly in a local development environment for testing and iteration.
-- **Docker Implementation**: Containerized the application using Docker for improved scalability and portability, including creating a Dockerfile, building an image, and managing containers.
-- **AWS ECR Integration**: Automated Docker image uploads to AWS ECR using Python scripts with Boto3, streamlining the deployment pipeline.
-- **Kubernetes Configuration**: Provisioned an EKS cluster and Nodegroups on Kubernetes, showcasing my skills in cloud infrastructure management.
-- **Deployment Automation**: Utilized Python to automate Kubernetes deployments and services, enabling a consistent and reliable deployment process.
+The monitoring system is built with the following components:
+
+- **Flask-Based Application**: A real-time monitoring interface using psutil to collect and display system statistics.
+
+- **Version Control with GitHub**: The code repository for the Flask application, providing source control management and versioning.
+
+- **Containerization with Docker & AWS ECR**: Enhances the application's scalability and portability. Docker images are managed in AWS ECR, streamlining the deployment process.
+
+- **Orchestration with Kubernetes & AWS**: Utilizes Amazon EKS for container orchestration, ensuring a scalable and manageable cloud infrastructure.
+
+- **CI/CD Integration**: Incorporates Continuous Integration and Continuous Deployment best practices for an automated and reliable deployment workflow.
+
