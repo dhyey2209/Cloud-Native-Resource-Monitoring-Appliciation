@@ -20,5 +20,3 @@ EXPOSE 5000
 
 CMD ["flask", "run"]
 #Run the command to start the flask app 
-
-#dhyey
